@@ -28,8 +28,6 @@
     * License: https://bootstrapmade.com/license/
     ======================================================== -->
 </head>
-
-
 <body>
     <div class="container-fluid">
         <div class="card">
