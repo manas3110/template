@@ -25,3 +25,4 @@ Route::get('/admin-profile',[templateController::class,'adminProfile'])->name('a
 Route::post('/change-admin-password',[templateController::class,'adminChangePwd'])->name('adminChangePwd')->middleware(checkLogin::class);
 Route::post('/edit-admin-profile',[templateController::class,'editAdmin'])->name('editAdmin')->middleware(checkLogin::class);
 Route::get('/test',[templateController::class,'test'])->name('test');
+Route::get('/test2',[templateController::class,'test2'])->name('test2');
