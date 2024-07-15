@@ -325,3 +325,64 @@
     <script src="{{asset('assets/js/test.js')}}"></script>
 </body>
 </html>
+<table class="" style="display:none;">
+	<tbody id="firstDivRow">
+		<tr class="text-center">
+            <td align="center"><i class="fa fa-times text-danger remove"></i></td>
+            <td><input type="text" class="form-control" name="truck[]"></td>
+            <td><input type="text" class="form-control" name="del_ticket[]"></td>
+            <td>
+                <!--<input type="text" class="form-control ms-time" name="batched_time[]">-->
+                <div class="input-group">                                     
+                  <input type="number" name="batched_hour[]" class="form-control dfr-time-hour" placeholder="Hour" min="1" max="12" style="min-width: 61px;">
+                  <input type="number" name="batched_min[]" class="form-control dfr-time-min" placeholder="Min" min="0" max="59" style="min-width: 61px;">
+                  <select name="batched_meridian[]" class="form-control" style="min-width: 61px;">
+                      <option value="AM">AM</option>
+                      <option value="PM">PM</option>
+                  </select>
+                </div> 
+            </td>
+            <td>
+                <!--<input type="text" class="form-control ms-time" name="sampled_time[]">-->
+                <div class="input-group">                                     
+                  <input type="number" name="sampled_hour[]" class="form-control dfr-time-hour" placeholder="Hour" min="1" max="12" style="min-width: 61px;">
+                  <input type="number" name="sampled_min[]" class="form-control dfr-time-min" placeholder="Min" min="0" max="59" style="min-width: 61px;">
+                  <select name="sampled_meridian[]" class="form-control" style="min-width: 61px;">
+                      <option value="AM">AM</option>
+                      <option value="PM">PM</option>
+                  </select>
+                </div> 
+            </td>
+            <td>
+                <!--<input type="text" class="form-control ms-time" name="truck_finish_time[]">-->
+                <div class="input-group">                                     
+                  <input type="number" name="truck_finish_hour[]" class="form-control dfr-time-hour" placeholder="Hour" min="1" max="12" style="min-width: 61px;">
+                  <input type="number" name="truck_finish_min[]" class="form-control dfr-time-min" placeholder="Min" min="0" max="59" style="min-width: 61px;">
+                  <select name="truck_finish_meridian[]" class="form-control" style="min-width: 61px;">
+                      <option value="AM">AM</option>
+                      <option value="PM">PM</option>
+                  </select>
+                </div> 
+            </td>
+            <td><input type="text" class="form-control" name="slump_in[]"></td>
+            <td><input type="text" class="form-control" name="air_content[]"></td>
+            <td><input type="text" class="form-control" name="unit_weight[]"></td>
+            <td><input type="text" class="form-control" name="air_temp[]"></td>
+            <td><input type="text" class="form-control" name="mix_temp[]"></td>
+            <td><input type="text" class="form-control" name="cylinder_set_no[]"></td>
+            <td><input type="text" class="form-control" name="no_cylinder_cast[]"></td>
+            <td colspan="2">
+                <select name="ext_water[]" class="form-control ext-water" placeholder="Select">
+                    <option value=""></option>
+                    <option value="yes">YES</option>
+                    <option value="no">NO</option>
+                </select>
+           </td>
+            <td><input name="authorize_by[]" type="text" class="form-control"></td>
+            <td>
+                <select name="mix_design_no[]" class="form-control mix-design-no" placeholder="Select"><option value=""></option><option value="4">3</option></select>
+           </td>
+            <td><input type="text" class="form-control" name="remarks[]"></td>
+	    </tr>
+	</tbody>
+</table>

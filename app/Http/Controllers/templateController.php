@@ -113,4 +113,13 @@ class templateController extends Controller
     public function test2(Request $request){
         return view("test2");
     }
+    public function test3(Request $request){
+        return view("test3");
+    }
+    public function test4(Request $request){
+        return view("test4");
+    }
+    public function test5(Request $request){
+        return view("test5");
+    }
 }

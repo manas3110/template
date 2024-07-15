@@ -26,3 +26,6 @@ Route::post('/change-admin-password',[templateController::class,'adminChangePwd'
 Route::post('/edit-admin-profile',[templateController::class,'editAdmin'])->name('editAdmin')->middleware(checkLogin::class);
 Route::get('/test',[templateController::class,'test'])->name('test');
 Route::get('/test2',[templateController::class,'test2'])->name('test2');
+Route::get('/test3',[templateController::class,'test3'])->name('test3');
+Route::get('/test4',[templateController::class,'test4'])->name('test4');
+Route::get('/test5',[templateController::class,'test5'])->name('test5');
